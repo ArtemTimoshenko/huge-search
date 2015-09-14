@@ -19,6 +19,33 @@ main{
 	margin: 50px auto;
 }
 
+input[type="search"]{
+	outline: none;
+	background-color: #F1F1F1;
+	border: none;
+	font-size: 120px;
+	font-weight: bold;
+	max-width: 85%;
+
+}
+
+input[type="search"]:focus{
+	color: #ec5a62;
+}
+
+
+input[type="submit"]{
+
+	height: 100px;
+	width: 100px;
+	background: url("../image/magnifier.svg") no-repeat;
+	border: none;
+	outline: none;
+}
+
+input[type="submit"]::-placeholder {color:red; font-size: 90px;}
+input[type="submit"]::-webkit-input-placeholder {color:red; font-size: 90px;}
+
 .ba-column{
 	vertical-align: top;
 	display: inline-block;
@@ -69,8 +96,8 @@ a:hover{
 }
 
 img{
-vertical-align: middle; /*почему*/
-margin-right: 15px;
+	vertical-align: middle; /*почему*/
+	margin-right: 15px;
 }
 
 
